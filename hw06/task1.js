@@ -5,9 +5,9 @@ function calculateRectangleArea (width1, height1) {
     const rectangleArea = width1 * height1
     return rectangleArea
 }
-const widthHeight = calculateRectangleArea (100,450)
+const areaOfRectangle = calculateRectangleArea (100,450)
 
-console.log(widthHeight)
+console.log(areaOfRectangle)
 
 
 
