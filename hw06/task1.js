@@ -1,12 +1,11 @@
 //Function declaration
 
-function calculateRectangle (width1, height1)//function declaration
-{
+function calculateRectangleArea (width1, height1) {
     //console.log(sumOfWidthHeight)
-    const calculateRectangleArea = width1 * height1
-    return calculateRectangleArea
+    const rectangleArea = width1 * height1
+    return rectangleArea
 }
-const widthHeight = calculateRectangle (100,450)
+const widthHeight = calculateRectangleArea (100,450)
 
 console.log(widthHeight)
 
@@ -14,12 +13,11 @@ console.log(widthHeight)
 
 //Function Expression
 
-const calculateRectangle2 = function (width2, height2)
-{
-    const calculateRectangleArea2 = width2 * height2
-    return calculateRectangleArea2
+const calculateRectangleArea2 = function (width2, height2) {
+    const rectangleArea2 = width2 * height2
+    return rectangleArea2
 }
-console.log(calculateRectangle2(234, 389))
+console.log(calculateRectangleArea2(234, 389))
 
 
 
@@ -27,9 +25,8 @@ console.log(calculateRectangle2(234, 389))
 //Arrow function
 
 
-const calculateRectangle3 = (width3, height3) =>
-{
-    const calculateRectangleArea3 = width3 * height3
-    return calculateRectangleArea3
+const calculateRectangleArea3 = (width3, height3) => {
+    const rectangleArea3 = width3 * height3
+    return rectangleArea3
 }
-console.log(calculateRectangle3(776, 1000))
+console.log(calculateRectangleArea3(776, 1000))
