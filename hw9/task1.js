@@ -1,8 +1,7 @@
 const student = {
-    firstName: "Narine",
-    lastName: "Ilnytska",
-    age: 98,
-    courses: ["Математика", "Історія", "Програмування"]
 }
+student.firstName ="Narine",
+    student.lastName = "Ilnytska",
+    student.age = 98,
+    student.courses = ["Математика", "Історія", "Програмування"]
 console.log(student)
-
