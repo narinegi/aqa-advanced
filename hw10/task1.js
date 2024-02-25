@@ -8,7 +8,7 @@ book.publicationYear = 2023
 console.log("Book:")
 book.printInfo()
 
-const book1 = new Book("Spike", "Narine Iln", 1999)
+const book1 = new Book("Spike", "Narine Ilnyt", 1999)
 const book2 = new Book("Hero", "Sam Smith", 2021)
 
 console.log("Book 1:"); book1.printInfo();
