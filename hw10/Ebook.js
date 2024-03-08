@@ -6,7 +6,7 @@ export default class Ebook extends Book { constructor(title, author, year, fileF
 }
     get fileFormat() { return this._fileFormat; }
     set fileFormat(value) { if (typeof value !== "string" || value.toLowerCase() !== "pdf")
-    { console.error("Error: PDF is the required file type")
+    { console.error("Error message: PDF is the required file type")
         return
     }
         this._fileFormat = value}
